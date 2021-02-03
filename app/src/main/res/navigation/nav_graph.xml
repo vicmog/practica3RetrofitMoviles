@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/listaReparacionesFragment">
+
+    <fragment
+        android:id="@+id/listaReparacionesFragment"
+        android:name="com.example.practica3retrofitmoviles.view.fragments.ListaReparacionesFragment"
+        android:label="fragment_lista_reparaciones"
+        tools:layout="@layout/fragment_lista_reparaciones" />
+    <fragment
+        android:id="@+id/listaMovilesFragment"
+        android:name="com.example.practica3retrofitmoviles.view.fragments.ListaMovilesFragment"
+        android:label="fragment_lista_moviles"
+        tools:layout="@layout/fragment_lista_moviles" />
+    <fragment
+        android:id="@+id/addMovilFragment"
+        android:name="com.example.practica3retrofitmoviles.view.fragments.AddMovilFragment"
+        android:label="fragment_add_movil"
+        tools:layout="@layout/fragment_add_movil" />
+    <fragment
+        android:id="@+id/editMovilFragment"
+        android:name="com.example.practica3retrofitmoviles.view.fragments.EditMovilFragment"
+        android:label="fragment_edit_movil"
+        tools:layout="@layout/fragment_edit_movil" />
+    <fragment
+        android:id="@+id/vistaMovilFragment"
+        android:name="com.example.practica3retrofitmoviles.view.fragments.VistaMovilFragment"
+        android:label="fragment_vista_movil"
+        tools:layout="@layout/fragment_vista_movil" />
+    <fragment
+        android:id="@+id/addReparacionesFragment"
+        android:name="com.example.practica3retrofitmoviles.view.fragments.AddReparacionesFragment"
+        android:label="fragment_add_reparaciones"
+        tools:layout="@layout/fragment_add_reparaciones" />
+    <fragment
+        android:id="@+id/addReparacion2Fragment"
+        android:name="com.example.practica3retrofitmoviles.view.fragments.AddReparacion2Fragment"
+        android:label="fragment_add_reparacion2"
+        tools:layout="@layout/fragment_add_reparacion2" />
+</navigation>
