@@ -34,7 +34,7 @@ public class EditMovilFragment extends Fragment {
     private ViewModel viewModel;
     private NavController navController;
     private Movil movilEdit;
-//EDIT MOVIL
+
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         return inflater.inflate(R.layout.fragment_edit_movil, container, false);

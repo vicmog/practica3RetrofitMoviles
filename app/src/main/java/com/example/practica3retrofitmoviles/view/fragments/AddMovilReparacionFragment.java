@@ -27,7 +27,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 
-public class AddReparacionesFragment extends Fragment {
+public class AddMovilReparacionFragment extends Fragment {
 
     private ViewModel viewModel;
     private NavController navController;

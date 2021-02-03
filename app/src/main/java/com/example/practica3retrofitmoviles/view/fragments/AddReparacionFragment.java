@@ -24,7 +24,7 @@ import com.google.android.material.textfield.TextInputEditText;
 import com.google.android.material.textfield.TextInputLayout;
 
 
-public class AddReparacion2Fragment extends Fragment {
+public class AddReparacionFragment extends Fragment {
 
    private TextInputLayout tilDescripcion,tilPrecio;
    private TextInputEditText tietDescripcion,tietPrecio;

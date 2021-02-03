@@ -32,12 +32,12 @@
         tools:layout="@layout/fragment_vista_movil" />
     <fragment
         android:id="@+id/addReparacionesFragment"
-        android:name="com.example.practica3retrofitmoviles.view.fragments.AddReparacionesFragment"
+        android:name="com.example.practica3retrofitmoviles.view.fragments.AddMovilReparacionFragment"
         android:label="fragment_add_reparaciones"
         tools:layout="@layout/fragment_add_reparaciones" />
     <fragment
         android:id="@+id/addReparacion2Fragment"
-        android:name="com.example.practica3retrofitmoviles.view.fragments.AddReparacion2Fragment"
+        android:name="com.example.practica3retrofitmoviles.view.fragments.AddReparacionFragment"
         android:label="fragment_add_reparacion2"
         tools:layout="@layout/fragment_add_reparacion2" />
 </navigation>
