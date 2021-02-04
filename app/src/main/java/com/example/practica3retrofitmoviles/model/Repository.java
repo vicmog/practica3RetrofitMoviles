@@ -114,6 +114,7 @@ public class Repository {
             @Override
             public void onFailure(Call<Integer> call, Throwable t) {
                 Log.v("ZZZ","update mal");
+                Log.v("ZZZ",t.getLocalizedMessage());
             }
         });
     }

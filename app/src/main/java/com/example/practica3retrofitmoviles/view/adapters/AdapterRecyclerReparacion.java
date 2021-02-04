@@ -85,7 +85,7 @@ public class AdapterRecyclerReparacion extends RecyclerView.Adapter<AdapterRecyc
         switch (item.getItemId()){
 
             case R.id.borraReparacion:
-                Log.v("ZZZ",reparacion.toString());
+
                 viewModel.deleteReparacion(reparacion.getId());
 
                 viewModel.getMovil(reparacion.getIdMovil());
@@ -95,14 +95,15 @@ public class AdapterRecyclerReparacion extends RecyclerView.Adapter<AdapterRecyc
 
                         if(movil.getNumeroReparaciones()!=0){
                             movil.setNumeroReparaciones(movil.getNumeroReparaciones()-1);
+                            viewModel.updateMovil(movil.getId(),movil);
                         }
 
 
-                        viewModel.updateMovil(movil.getId(),movil);
+
                     }
                 });
 
-                navController.navigate(R.id.listaMovilesFragment);
+
                 navController.navigate(R.id.listaReparacionesFragment);
 
 
